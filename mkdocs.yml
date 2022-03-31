@@ -1,0 +1,21 @@
+site_name: Prueba mkdocs
+theme:
+  name: material
+  language: es
+  palette: 
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - scheme: slate 
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+extra_css:
+  - stylesheets/extra.css
+markdown_extensions:
+    - pymdownx.inlinehilite
+    - pymdownx.snippets
+    - pymdownx.superfences
+    - pymdownx.highlight:
+        anchor_linenums: true
